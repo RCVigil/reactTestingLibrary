@@ -6,7 +6,7 @@ import userEvent from '@testing-library/user-event';
 import App from '../App';
 
 import renderWithRouter from './RenderwithRouter';
-import { toBeChecked } from '@testing-library/jest-dom/dist/matchers';
+
 import pokemons from '../data';
 
 describe('Teste o componente <Pokedex.js />', () => {
