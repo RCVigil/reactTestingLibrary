@@ -3,12 +3,10 @@ import React from 'react';
 import { screen } from '@testing-library/react';
 
 import userEvent from '@testing-library/user-event';
-import { element } from 'prop-types';
 import App from '../App';
 
 import renderWithRouter from './RenderwithRouter';
 import pokemons from '../data';
-import { Pokemon } from '../components';
 
 describe('Teste o componente <PokemonDetails.js />', () => {
   test('Teste se as informações detalhadas do pokémon selecionado são mostradas', () => {
